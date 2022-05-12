@@ -1,0 +1,516 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url(../img/fundo_gardem_guarapiranga.png);
+
+
+
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.menu-principal {
+    background-color: #44c7ff7a;
+    height: 60px;
+    width: 100%;
+    border-bottom: 2px solid #0511f261;
+}
+
+.main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+
+
+}
+
+.parques {
+    text-align: center;
+    margin-top: 150px;
+    color: #0511F2;
+
+}
+
+.logo {
+    float: left;
+    padding: 16px;
+    width: 60%;
+}
+
+.Rede-Social ul li {
+    margin-left: 28px;
+    display: inline-block;
+    list-style: none;
+
+}
+
+.Rede-Social {
+    width: 30%;
+    float: right;
+
+}
+
+.header-2 {
+    width: 980;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-urls {
+    height: 80px;
+    border-bottom: 2px solid #0511f275;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+
+
+}
+
+.menu ul li:hover {
+    border-bottom: solid 2px #0511f269 !important;
+
+}
+
+.menu ul li a:hover {
+    color: #0511F2 !important;
+
+}
+
+
+
+
+
+.menu ul li a {
+
+    color: #00153C;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+
+
+
+}
+
+.menu {
+    width: 70%;
+    float: left;
+
+}
+
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+
+
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+
+
+.texto-destaque {
+    text-align: center;
+}
+
+
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #252323;
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: #252323;
+}
+
+.col-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 33, 3%;
+    float: left;
+    position: relative;
+    ;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+.bloco-texto img::before {
+    margin-top: 10px;
+
+}
+
+.inscreva-se {
+    margin-top: 40px;
+}
+
+.tome-uma-atitude {
+    margin-top: 39px;
+}
+
+.col-3 {
+    text-align: center;
+    padding: auto;
+    padding-right: auto;
+    width: 38%;
+    float: left;
+    position: relative;
+}
+
+.bloco-imagem {
+    height: 390px;
+    width: 390px;
+    border: 1px solid #00153C;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 15px #00000082;
+}
+
+.bloco-imagem p {
+    margin-left: 5px;
+    margin-right: 5px;
+
+
+}
+
+.bloco-texto li {
+    list-style: none;
+
+}
+
+.col-3 {
+    margin-left: 20px;
+    left: -20px;
+}
+
+.col-4 {
+    margin-top: 50px;
+    float: left;
+    width: 25%;
+}
+
+.col-4 img {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.bloco-lixeira, .col-5 img:hover {
+
+    margin-top: -10px !important;
+    position: relative !important;
+}
+
+.bloco-lixeira {
+    height: 170px;
+}
+
+.bloco-lixeira img {
+    margin-top: 40px;
+}
+
+
+.footer {
+    background-image: url("../img/igualdade.png");
+
+}
+
+.footer .col-4 {
+    height: 300px;
+    border: 1px solid #00153C;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin-left: 40px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 15px #00000082;
+}
+
+.icone::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url("../img/Relogio.png");
+    background-repeat: no-repeat;
+    padding-left: 20;
+}
+
+.icone {
+    color: #00153C !important;
+
+}
+
+.footer p {
+    width: 90%;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.end:before, .email:before, .tel:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    padding-left: 20;
+
+}
+
+.end:before {
+    background-image: url("../img/icone-end.png");
+}
+
+.email:before {
+    background-image: url("../img/icone-tel.png");
+
+}
+
+.tel:before {
+    background-image: url("../img/icone-email.png");
+
+}
+
+/*estilização formulario*/
+form {
+    margin-top: 40px;
+    margin-left: 400px;
+    padding-left: 250px;
+
+}
+
+.formulario {
+    width: 400px;
+
+
+}
+
+.formulario p {
+    width: 100%;
+    font-size: 15px;
+}
+
+.field {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.field label,
+.field span {
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+
+.radiobox label {
+    width: auto;
+    display: inline-block;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #00153C;
+    outline: none;
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px #00000082;
+}
+
+input#nao {
+    margin-left: 30px;
+}
+
+textarea {
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+
+input[type=submit] {
+    display: block;
+    background-color: rgba(30, 203, 42, 0.686);
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 15px #00000082;
+}
+
+.footer-text p {
+    font-size: 14px;
+    margin-right: 50px;
+
+}
+
+.formulario {
+    margin-block-end: 50px;
+    margin-left: 45px;
+
+}
+
+/* final do formulario*/
+
+.contatos {
+    margin-top: 50px;
+
+}
+
+.menu-inferior {
+
+    margin-top: 50px;
+    background-color: #44c7ff9e;
+    height: 50px;
+    width: 980px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 3px;
+
+
+}
+
+
+.menu-inferior img {
+    margin-top: 10px;
+}
+
+.menu-inferior img {
+    display: inline-block !important;
+    cursor: pointer;
+}
+
+.menu-inferior img:hover {
+    margin-top: 2px !important;
+    position: relative !important;
+
+}
+
+.font-site {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.font-site h1 {
+    color: #040c9e;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.278);
+}
+
+.font-site p a {
+    color: #00153C;
+
+}
+
+.bloco-texto, .col-4 b h3 {
+    color: #27708C;
+
+}
+
+
+
+.bloco-texto p {
+    color: #27708C;
+}
+
+.font-site h2 h3 b {
+    color: #27708C;
+
+
+}
+
+.col-4 p {
+    color: #00153C;
+}
+
+.col-4 h2 h3 {
+    color: #27708C;
+
+
+}
+
+.contatos-1 h1 {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 0px;
+}
+
+
+.col-100, .texto-destaque p {
+    color: #00153C;
+
+}
+
+.foto-parques img {
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid #00153C;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #00153c62;
+
+}
+
+.foto-parques h3 {
+    margin-top: 50px;
+}
+
+.texto-final {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content iframe {
+    border: 2px solid #00153C;
+    box-shadow: 10px 10px 15px #00153c98;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+
+}
+
+.img-coleta img {
+    position: absolute left;
+    width: 980px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #00153C;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #00153c62;
+}
+
+iframe{
+    margin-left: 20px;
+}
